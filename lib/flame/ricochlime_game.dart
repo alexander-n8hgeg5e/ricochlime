@@ -249,7 +249,7 @@ class RicochlimeGame extends Forge2DGame
       }
     }
 
-    score.value = data.score;
+    score.value = 50000;
     numBullets = 1 + score.value - numMonstersThatGiveBullets;
     assert(numBullets >= 1);
     assert(numBullets <= score.value);
